@@ -33,10 +33,10 @@ if ($aa->init_point != null) {
     $url = $aa->init_point;
     header("location:".$url);
 }
-if ($aa['init_point'] != null) {
-    $url = $aa['init_point'];
-    header("location:".$url);
-}
+//if ($aa['init_point'] != null) {
+//    $url = $aa['init_point'];
+//    header("location:".$url);
+//}
 
 //订单查询
 //$payment = MercadoPago\Payment::find_by_id('24348377');//Encuentra tu pedido
